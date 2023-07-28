@@ -23,7 +23,9 @@
 10. Finally, separate the prediction of tooth translation and rotation, and consider that translation and rotation are two different tasks.
 # Environment
 1.python 3.7.0
+
 2.pytorch 11.3.1
+
 3.pytorch3D 0.7.4
 # Train
 python main.py
