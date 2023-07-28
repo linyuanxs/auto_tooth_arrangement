@@ -29,6 +29,8 @@
 3.pytorch3D 0.7.4
 # Train
 python main.py
+# test
+python test_rotate.py
 # Difficult issues:
 1.Orthodontics: The collision between teeth is undoubtedly a crucial point, and what constraints should be established to 100% avoid tooth collisions in the dental alignment results. The occlusion and coverage between teeth are all worth in-depth consideration.
 
