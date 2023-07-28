@@ -22,4 +22,5 @@
 python main.py
 # License and Citation
 1.The design concept of this model cannot be used for commercial purposes without permission.
+
 2.If you refer to the design concept of this model for theoretical research and publication of papers on automatic tooth arrangement, please also add a reference.
