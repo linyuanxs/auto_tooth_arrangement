@@ -21,6 +21,10 @@
 8. The first transformer module calculates the relationship between teeth in feature extraction of tooth center points, as the continuity of teeth on the dental arch is essentially the relative pose relationship between teeth. You can also use a fully connected layer instead, as the third transformer module also calculates the correlation between teeth.
 9. The fusion of center point features and tooth features is because tooth arrangement is a relative pose relationship of teeth on the dental arch. For example, even if the position is correct but the posture is not good, serious collisions may still occur, and poor posture can also affect bite, and so on.
 10. Finally, separate the prediction of tooth translation and rotation, and consider that translation and rotation are two different tasks.
+# Environment
+python 3.7.0
+pytorch 11.3.1
+pytorch3D 0.7.4
 # Train
 python main.py
 # License and Citation
