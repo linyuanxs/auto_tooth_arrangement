@@ -9,7 +9,7 @@
 3.ViT：An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale.
 # model .pth
 链接：https://pan.baidu.com/s/1nsectXx46bpWMqeVSbYnTQ 
-提取码：0chs
+提取码：0chs    
 The reason why the model file is so large is because I did not delete some useless parameters.
 # model structure
 ![auto teeth_model](https://github.com/huang229/auto_tooth_arrangement/assets/29627190/c57cab48-185c-4edf-a75c-a4f674e07504)
