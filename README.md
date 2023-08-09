@@ -12,7 +12,7 @@
 提取码：0chs    
 The reason why the model file is so large is because I did not delete some useless parameters.
 # model structure
-![auto teeth_model](https://github.com/huang229/auto_tooth_arrangement/assets/29627190/c57cab48-185c-4edf-a75c-a4f674e07504)
+![auto teeth_model](https://github.com/huang229/auto_tooth_arrangement/assets/29627190/d17cb936-6001-4d58-b3f5-ad95b6bac362)
 ![loss](https://github.com/huang229/auto_tooth_arrangement/assets/29627190/236e02c0-e7a6-4541-b6d1-c6dff3798b93)
 # The reason for this design：
 1. Tooth arrangement includes two operations: translation and rotation.
