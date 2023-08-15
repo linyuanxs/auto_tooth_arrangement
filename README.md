@@ -14,6 +14,11 @@ The reason why the model file is so large is because I did not delete some usele
 # model structure
 ![auto teeth_model](https://github.com/huang229/auto_tooth_arrangement/assets/29627190/7999d5ae-ceb8-43ff-a593-4f3e00023315)
 ![loss](https://github.com/huang229/auto_tooth_arrangement/assets/29627190/236e02c0-e7a6-4541-b6d1-c6dff3798b93)
+![model 2](https://github.com/huang229/auto_tooth_arrangement/assets/29627190/e7ff546c-5a15-4dd7-8b68-8accd05d7d0b)
+![model 3](https://github.com/huang229/auto_tooth_arrangement/assets/29627190/b9245f5b-984a-4ba0-a745-73fd09fbb5e3)
+
+
+
 # The reason for this design：
 1. Tooth arrangement includes two operations: translation and rotation.
 2. The model should have modules that care about rotation and translation separately.
