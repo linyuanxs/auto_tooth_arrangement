@@ -54,6 +54,11 @@ model structure:
 There is also a simple design. The doctor's orthodontic treatment as understood above only applies pose changes to some deformed teeth. Therefore, it is possible to consider changing the loss on Model 1 by adding a mask to calculate the loss value only for teeth with pose changes, or the weight of the loss value for teeth with unchanged pose is very small. It does not need to be a prediction of teeth that require pose changes like Model 2 and Model 3.还有一种简单设计。上面理解的医生正畸治疗仅对部分畸形牙齿做位姿变化，因此，可以考虑在模型1上对损失做变化，通过添加mask，仅对有位姿变化的牙齿计算损值，或者位姿不变的牙齿的损失值权重非常小。它就不必像模型2和模型3那样是一颗一颗的预测需要进行位姿变化的牙齿。
 ![mask loss](https://github.com/huang229/auto_tooth_arrangement/assets/29627190/10f219c8-84ba-4021-b7fa-6cf3389622e7)
 
+# Collision issues：
+By voxelizing the mesh, it can effectively represent the collision overlap between teeth, such as minimizing the loss value in the overlapping area.
+Reference paper: Mesh R-CNN 
+https://arxiv.org/pdf/1906.02739.pdf
+
 # License and Citation
 1.Without permission, the design concept of this model shall not be used for commercial purposes, profit seeking, etc.
 
