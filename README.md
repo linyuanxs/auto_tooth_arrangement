@@ -4,19 +4,27 @@
 2.This is only an automatic arrangement of single jaw teeth (considering certain factors). It is easy to expand to full mouth teeth.
 
 3.This code is only for Model 1 and does not consider missing teeth.
+
 4.It does not involve the inevitable core technology in dental alignment.
+
+
 # Reference:
 1. TANet: Towards Fully Automatic Tooth Arrangement.
 2. Tooth_Alignment_Network_Based_on_Landmark_Constraints_and_Hierarchical_Graph_Structure.
 3. ViT：An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale.
 4. https://github.com/ziyangyeh/TANet-Pytorch.    (Thank you very much for the author's communication.)
+
+   
 # model .pth
 链接：https://pan.baidu.com/s/1nsectXx46bpWMqeVSbYnTQ 
 提取码：0chs    
 The reason why the model file is so large is because I did not delete some useless parameters.
+
+
 # model structure
 ![auto teeth_model](https://github.com/huang229/auto_tooth_arrangement/assets/29627190/7999d5ae-ceb8-43ff-a593-4f3e00023315)
 ![loss](https://github.com/huang229/auto_tooth_arrangement/assets/29627190/236e02c0-e7a6-4541-b6d1-c6dff3798b93)
+
 
 # The reason for this design：
 1. Tooth arrangement includes two operations: translation and rotation.
@@ -29,16 +37,21 @@ The reason why the model file is so large is because I did not delete some usele
 8. The first transformer module calculates the relationship between teeth in feature extraction of tooth center points, as the continuity of teeth on the dental arch is essentially the relative pose relationship between teeth. You can also use a fully connected layer instead, as the third transformer module also calculates the correlation between teeth.
 9. The fusion of center point features and tooth features is because tooth arrangement is a relative pose relationship of teeth on the dental arch. For example, even if the position is correct but the posture is not good, serious collisions may still occur, and poor posture can also affect bite, and so on.
 10. Finally, separate the prediction of tooth translation and rotation, and consider that translation and rotation are two different tasks.
+
+    
 # Environment
 1.python 3.7.0
 
 2.pytorch 11.3.1
 
 3.pytorch3D 0.7.4
+
 # Train
 python main.py
 # test
 python test_rotate.py
+
+
 # Difficult issues:
 1.Orthodontics: The collision between teeth is undoubtedly a crucial point, and what constraints should be established to 100% avoid tooth collisions in the dental alignment results. The occlusion and coverage between teeth are all worth in-depth consideration.
 
