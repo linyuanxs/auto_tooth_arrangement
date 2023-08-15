@@ -1,4 +1,4 @@
-# Auto_tooth_arrangement
+# Auto_tooth_arrangement(code: Model 1 application)
 1.Automatically arrange teeth using neural networks. Applied to automatic orthodontic treatment of oral teeth.
 
 2.This is only an automatic arrangement of single jaw teeth (considering certain factors). It is easy to expand to full mouth teeth.
