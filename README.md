@@ -3,11 +3,10 @@
 
 2.This is only an automatic arrangement of single jaw teeth (considering certain factors). It is easy to expand to full mouth teeth.
 # Reference:
-1.TANet: Towards Fully Automatic Tooth Arrangement.
-2.Tooth_Alignment_Network_Based_on_Landmark_Constraints_and_Hierarchical_Graph_Structure.
-
-3.ViT：An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale.
-4.https://github.com/ziyangyeh/TANet-Pytorch
+1. TANet: Towards Fully Automatic Tooth Arrangement.
+2. Tooth_Alignment_Network_Based_on_Landmark_Constraints_and_Hierarchical_Graph_Structure.
+3. ViT：An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale.
+4. https://github.com/ziyangyeh/TANet-Pytorch
 # model .pth
 链接：https://pan.baidu.com/s/1nsectXx46bpWMqeVSbYnTQ 
 提取码：0chs    
