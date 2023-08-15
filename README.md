@@ -57,7 +57,9 @@ There is also a simple design. The doctor's orthodontic treatment as understood 
 2.Collision issues：
 By voxelizing the mesh, it can effectively represent the collision overlap between teeth, such as minimizing the loss value in the overlapping area.
 Reference paper: Mesh R-CNN 
+
 https://arxiv.org/pdf/1906.02739.pdf
+
 For automatic orthodontic treatment, collision is a key core technical issue that is too important, and this part of the model structure design will no longer be displayed. Those who are interested can imagine for themselves. This is also an issue that has been avoided in published papers.
 
 3.According to the assumptions of Model 2 and Model 3, using reinforcement learning to predict the position of the next deformed tooth would be a perfect design. Because as mentioned above, orthodontics is a process in which doctors dynamically adjust deformed teeth back and forth (repeatedly).按照模型2和模型3的设想，如果在预测下一颗畸形牙齿的位姿时使用强化学习，将是完美的设计。因为上面提到牙齿正畸更是医生对畸形牙齿来回(反复)动态调整的过程。
