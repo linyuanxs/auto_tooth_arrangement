@@ -2,6 +2,7 @@
 1.Automatically arrange teeth using neural networks. Applied to automatic orthodontic treatment of oral teeth.
 
 2.This is only an automatic arrangement of single jaw teeth (considering certain factors). It is easy to expand to full mouth teeth.
+3.This code is only for Model 1 and does not consider missing teeth.
 # Reference:
 1. TANet: Towards Fully Automatic Tooth Arrangement.
 2. Tooth_Alignment_Network_Based_on_Landmark_Constraints_and_Hierarchical_Graph_Structure.
