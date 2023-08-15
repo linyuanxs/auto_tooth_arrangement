@@ -4,6 +4,7 @@
 2.This is only an automatic arrangement of single jaw teeth (considering certain factors). It is easy to expand to full mouth teeth.
 
 3.This code is only for Model 1 and does not consider missing teeth.
+4.It does not involve the inevitable core technology in dental alignment.
 # Reference:
 1. TANet: Towards Fully Automatic Tooth Arrangement.
 2. Tooth_Alignment_Network_Based_on_Landmark_Constraints_and_Hierarchical_Graph_Structure.
