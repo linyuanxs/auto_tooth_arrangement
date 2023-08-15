@@ -51,7 +51,7 @@ python test_rotate.py
 model structure:
 ![model 2](https://github.com/huang229/auto_tooth_arrangement/assets/29627190/e7ff546c-5a15-4dd7-8b68-8accd05d7d0b)
 ![model 3](https://github.com/huang229/auto_tooth_arrangement/assets/29627190/b9245f5b-984a-4ba0-a745-73fd09fbb5e3)
-
+There is also a simple design. The doctor's orthodontic treatment as understood above only applies pose changes to some deformed teeth. Therefore, it is possible to consider changing the loss on Model 1 by adding a mask to calculate the loss value only for teeth with pose changes, or the weight of the loss value for teeth with unchanged pose is very small. It does not need to be a prediction of teeth that require pose changes like Model 2 and Model 3.还有一种简单设计。上面理解的医生正畸治疗仅对部分畸形牙齿做位姿变化，因此，可以考虑在模型1上对损失做变化，通过添加mask，仅对有位姿变化的牙齿计算损值，或者位姿不变的牙齿的损失值权重非常小。它就不必像模型2和模型3那样是一颗一颗的预测需要进行位姿变化的牙齿。
 
 # License and Citation
 1.Without permission, the design concept of this model shall not be used for commercial purposes, profit seeking, etc.
